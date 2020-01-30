@@ -128,6 +128,7 @@ public class Auto extends LinearOpMode {
             Thread.sleep(time);
         }
 
+//Moving and turning are different. 
 
         public void turnRight(double power) {
             leftBack.setPower(power);
